@@ -1,0 +1,6 @@
+{
+  "name": "GameClaim AI",
+  "description": "Automated free PC games claiming platform and tracker for Epic Games, Steam, GOG, and Prime Gaming.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

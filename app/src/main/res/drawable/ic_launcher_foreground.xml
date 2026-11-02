@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Outer Cyber Hex Shield -->
+    <path
+        android:pathData="M54,23 L79,34 L79,64 L54,85 L29,64 L29,34 Z"
+        android:strokeWidth="2.5"
+        android:strokeColor="#22D3EE"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:angle="90"
+                android:startColor="#1E163B"
+                android:endColor="#0F172A"
+                android:type="linear" />
+        </aapt:attr>
+    </path>
+    <!-- Glowing gamepad base inside -->
+    <path
+        android:fillColor="#818CF8"
+        android:pathData="M39,45 C36.5,45 34.5,47 34.5,49.5 L34.5,60 C34.5,63.5 37.5,65.5 40.5,63.5 L45,60.5 L63,60.5 L67.5,63.5 C70.5,65.5 73.5,63.5 73.5,60 L73.5,49.5 C73.5,47 71.5,45 69,45 Z" />
+    <!-- D-Pad (Left) -->
+    <path
+        android:fillColor="#0A0E17"
+        android:pathData="M42,50 h3 v3 h3 v2 h-3 v3 h-3 v-3 h-3 v-2 h3 z" />
+    <!-- Action buttons (Right) -->
+    <path
+        android:fillColor="#38BDF8"
+        android:pathData="M65,51 a1.5,1.5 0 1,0 0.01,0 Z M68,54 a1.5,1.5 0 1,0 0.01,0 Z M62,54 a1.5,1.5 0 1,0 0.01,0 Z M65,57 a1.5,1.5 0 1,0 0.01,0 Z" />
+    <!-- Central AI Chip / Claim Pulse -->
+    <path
+        android:fillColor="#22D3EE"
+        android:pathData="M54,49 a2.5,2.5 0 1,0 0.01,0 Z" />
+    <!-- Claim Checkmark Badge bottom right -->
+    <path
+        android:fillColor="#10B981"
+        android:pathData="M68,66 a7,7 0 1,0 0.01,0 Z" />
+    <path
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="1.8"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:pathData="M65,66 L67.5,68.5 L71.5,63.5" />
+</vector>
